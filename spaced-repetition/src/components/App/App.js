@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 import DashboardRoute from '../../routes/DashboardRoute/DashboardRoute';
 import LearningRoute from '../../routes/LearningRoute/LearningRoute';
 import NotFoundRoute from '../../routes/NotFoundRoute/NotFoundRoute';
-import '../../index.css';
 
 export default class App extends Component {
   state = { hasError: false };

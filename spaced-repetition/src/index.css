@@ -1,34 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import "tailwindcss";
 
-* {
-  box-sizing: border-box;
+@theme {
+  --color-primary: #606060;
+  --color-link: #007BFF;
+  --color-green-correct-bg: #f0fff4;
+  --color-green-correct: #38a169;
+  --color-green-correct-text: #276749;
+  --color-red-incorrect-bg: #fff5f5;
+  --color-red-incorrect: #e53e3e;
+  --color-red-incorrect-text: #c53030;
+  --color-orange-incorrect-btn: #dd6b20;
+  --color-gray-locked-bg: #e2e8f0;
+  --color-gray-locked: #a0aec0;
+  --color-connector: #cbd5e0;
+  --shadow-card: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-elevated: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-modal: 0 8px 32px rgba(0, 0, 0, 0.18);
+  --font-family-ubuntu: "Ubuntu", sans-serif;
+  --animate-pop-in: pop-in 0.35s ease forwards;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Ubuntu", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@keyframes pop-in {
+  0% { transform: scale(0.7); opacity: 0; }
+  70% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
 }
 
-/* Define CSS variables in the global scope */
-:root {
-  --primary-bg: rgba(172, 255, 197, 0.55);
-  --secondary-bg: linear-gradient(to right bottom, rgba(93, 154, 251, 0.366), rgba(98, 210, 255, 0.287));
-  --primary-color: #606060;
-  --link-color: #007BFF;
-  --header-padding: 20px;
-  --header-padding-lg: 20px 23%;
-  --header-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Common styles for cards */
-.card {
-  background: var(--secondary-bg);
-  border-radius: 2rem;
-  padding: 20px 30px 30px;
-  margin: 20px auto;
-  max-width: 500px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+@layer base {
+  body {
+    font-family: var(--font-family-ubuntu);
+  }
 }

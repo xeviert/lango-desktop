@@ -1,0 +1,1098 @@
+{
+  "language": {
+    "id": 1,
+    "name": "French",
+    "total_score": 0
+  },
+  "words": [
+    {
+      "id": 7,
+      "language_id": 1,
+      "original": "en",
+      "translation": "in",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 78,
+      "language_id": 1,
+      "original": "vieux",
+      "translation": "old",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 32,
+      "language_id": 1,
+      "original": "comme",
+      "translation": "like",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 4,
+      "language_id": 1,
+      "original": "à",
+      "translation": "to",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 82,
+      "language_id": 1,
+      "original": "après",
+      "translation": "after",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 31,
+      "language_id": 1,
+      "original": "nous",
+      "translation": "we",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 52,
+      "language_id": 1,
+      "original": "tu",
+      "translation": "you",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 80,
+      "language_id": 1,
+      "original": "heureux",
+      "translation": "happy",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 26,
+      "language_id": 1,
+      "original": "son",
+      "translation": "his/her/its",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 8,
+      "language_id": 1,
+      "original": "avoir",
+      "translation": "to have",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 74,
+      "language_id": 1,
+      "original": "chaud",
+      "translation": "hot",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 25,
+      "language_id": 1,
+      "original": "faire",
+      "translation": "to do",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 118,
+      "language_id": 1,
+      "original": "utiliser",
+      "translation": "to use",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 111,
+      "language_id": 1,
+      "original": "parler",
+      "translation": "to talk",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 121,
+      "language_id": 1,
+      "original": "regarder",
+      "translation": "to look",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 24,
+      "language_id": 1,
+      "original": "tout",
+      "translation": "all",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 20,
+      "language_id": 1,
+      "original": "pouvoir",
+      "translation": "to be able to",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 6,
+      "language_id": 1,
+      "original": "et",
+      "translation": "and",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 64,
+      "language_id": 1,
+      "original": "vert",
+      "translation": "green",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 101,
+      "language_id": 1,
+      "original": "aimer",
+      "translation": "to love",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 39,
+      "language_id": 1,
+      "original": "devoir",
+      "translation": "to have to",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 73,
+      "language_id": 1,
+      "original": "mince",
+      "translation": "thin",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 34,
+      "language_id": 1,
+      "original": "si",
+      "translation": "if",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 14,
+      "language_id": 1,
+      "original": "qui",
+      "translation": "who",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 9,
+      "language_id": 1,
+      "original": "que",
+      "translation": "that",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 55,
+      "language_id": 1,
+      "original": "elles",
+      "translation": "they",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 66,
+      "language_id": 1,
+      "original": "rose",
+      "translation": "pink",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 112,
+      "language_id": 1,
+      "original": "construire",
+      "translation": "to build",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 107,
+      "language_id": 1,
+      "original": "épeler",
+      "translation": "to spell",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 13,
+      "language_id": 1,
+      "original": "il",
+      "translation": "he",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 65,
+      "language_id": 1,
+      "original": "jaune",
+      "translation": "yellow",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 116,
+      "language_id": 1,
+      "original": "penser",
+      "translation": "to think",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 87,
+      "language_id": 1,
+      "original": "pendant",
+      "translation": "during",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 59,
+      "language_id": 1,
+      "original": "notre/nos",
+      "translation": "our",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 48,
+      "language_id": 1,
+      "original": "voyage (masc.)",
+      "translation": "trip",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 62,
+      "language_id": 1,
+      "original": "rouge",
+      "translation": "red",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 42,
+      "language_id": 1,
+      "original": "homme (masc.)",
+      "translation": "man",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 46,
+      "language_id": 1,
+      "original": "travail (masc.)",
+      "translation": "work",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 30,
+      "language_id": 1,
+      "original": "mais",
+      "translation": "but",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 75,
+      "language_id": 1,
+      "original": "froid",
+      "translation": "cold",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 109,
+      "language_id": 1,
+      "original": "voyager",
+      "translation": "to travel",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 89,
+      "language_id": 1,
+      "original": "sous",
+      "translation": "under",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 49,
+      "language_id": 1,
+      "original": "livre (masc.)",
+      "translation": "book",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 3,
+      "language_id": 1,
+      "original": "un",
+      "translation": "a",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 41,
+      "language_id": 1,
+      "original": "femme (fem.)",
+      "translation": "woman",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 18,
+      "language_id": 1,
+      "original": "pas",
+      "translation": "not",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 67,
+      "language_id": 1,
+      "original": "blanc",
+      "translation": "white",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 99,
+      "language_id": 1,
+      "original": "longtemps",
+      "translation": "long time",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 106,
+      "language_id": 1,
+      "original": "ajouter",
+      "translation": "to add",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 68,
+      "language_id": 1,
+      "original": "noir",
+      "translation": "black",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 98,
+      "language_id": 1,
+      "original": "jamais",
+      "translation": "never",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 11,
+      "language_id": 1,
+      "original": "dans",
+      "translation": "in",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 86,
+      "language_id": 1,
+      "original": "devant",
+      "translation": "in front of",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 91,
+      "language_id": 1,
+      "original": "sans",
+      "translation": "without",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 35,
+      "language_id": 1,
+      "original": "leur",
+      "translation": "their",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 113,
+      "language_id": 1,
+      "original": "prendre",
+      "translation": "to take",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 45,
+      "language_id": 1,
+      "original": "monde (masc.)",
+      "translation": "world",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 94,
+      "language_id": 1,
+      "original": "assez",
+      "translation": "enough",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 110,
+      "language_id": 1,
+      "original": "écouter",
+      "translation": "to listen",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 115,
+      "language_id": 1,
+      "original": "donner",
+      "translation": "to give",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 88,
+      "language_id": 1,
+      "original": "entre",
+      "translation": "between",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 23,
+      "language_id": 1,
+      "original": "avec",
+      "translation": "with",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 40,
+      "language_id": 1,
+      "original": "avant",
+      "translation": "before",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 54,
+      "language_id": 1,
+      "original": "ils",
+      "translation": "they",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 27,
+      "language_id": 1,
+      "original": "mettre",
+      "translation": "to put",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 81,
+      "language_id": 1,
+      "original": "triste",
+      "translation": "sad",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 117,
+      "language_id": 1,
+      "original": "signifier",
+      "translation": "to mean",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 96,
+      "language_id": 1,
+      "original": "peu",
+      "translation": "few",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 28,
+      "language_id": 1,
+      "original": "autre",
+      "translation": "other",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 100,
+      "language_id": 1,
+      "original": "ensemble",
+      "translation": "together",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 79,
+      "language_id": 1,
+      "original": "jeune",
+      "translation": "young",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 58,
+      "language_id": 1,
+      "original": "son/sa/ses",
+      "translation": "his, her",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 29,
+      "language_id": 1,
+      "original": "on",
+      "translation": "one",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 84,
+      "language_id": 1,
+      "original": "depuis",
+      "translation": "since",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 85,
+      "language_id": 1,
+      "original": "derrière",
+      "translation": "behind",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 53,
+      "language_id": 1,
+      "original": "vous",
+      "translation": "you all",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 43,
+      "language_id": 1,
+      "original": "ami/amie (masc./fem.)",
+      "translation": "friend",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 57,
+      "language_id": 1,
+      "original": "ton/ta/tes",
+      "translation": "your",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 17,
+      "language_id": 1,
+      "original": "se",
+      "translation": "oneself",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 15,
+      "language_id": 1,
+      "original": "ne",
+      "translation": "not",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 44,
+      "language_id": 1,
+      "original": "maison (fem.)",
+      "translation": "house",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 108,
+      "language_id": 1,
+      "original": "essayer",
+      "translation": "to try",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 1,
+      "language_id": 1,
+      "original": "le",
+      "translation": "the",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 103,
+      "language_id": 1,
+      "original": "vouloir",
+      "translation": "to want",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 97,
+      "language_id": 1,
+      "original": "très",
+      "translation": "very",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 12,
+      "language_id": 1,
+      "original": "ce",
+      "translation": "this",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 37,
+      "language_id": 1,
+      "original": "dire",
+      "translation": "to say",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 63,
+      "language_id": 1,
+      "original": "bleu",
+      "translation": "blue",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 51,
+      "language_id": 1,
+      "original": "phrase (fem.)",
+      "translation": "sentence",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 38,
+      "language_id": 1,
+      "original": "elle",
+      "translation": "she",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 95,
+      "language_id": 1,
+      "original": "beaucoup",
+      "translation": "a lot",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 60,
+      "language_id": 1,
+      "original": "votre/vos",
+      "translation": "your",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 33,
+      "language_id": 1,
+      "original": "où",
+      "translation": "where",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 72,
+      "language_id": 1,
+      "original": "grand",
+      "translation": "big",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 71,
+      "language_id": 1,
+      "original": "petit",
+      "translation": "small",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 104,
+      "language_id": 1,
+      "original": "jouer",
+      "translation": "to play",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 61,
+      "language_id": 1,
+      "original": "leur/leurs",
+      "translation": "their",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 47,
+      "language_id": 1,
+      "original": "école (fem.)",
+      "translation": "school",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 120,
+      "language_id": 1,
+      "original": "voir",
+      "translation": "to see",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 56,
+      "language_id": 1,
+      "original": "mon/ma/mes",
+      "translation": "my",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 19,
+      "language_id": 1,
+      "original": "plus",
+      "translation": "more",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 22,
+      "language_id": 1,
+      "original": "je",
+      "translation": "I",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 16,
+      "language_id": 1,
+      "original": "sur",
+      "translation": "on",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 114,
+      "language_id": 1,
+      "original": "obtenir",
+      "translation": "to get",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 76,
+      "language_id": 1,
+      "original": "bon",
+      "translation": "good",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 50,
+      "language_id": 1,
+      "original": "lumière (fem.)",
+      "translation": "light",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 83,
+      "language_id": 1,
+      "original": "contre",
+      "translation": "against",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 21,
+      "language_id": 1,
+      "original": "par",
+      "translation": "by",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 36,
+      "language_id": 1,
+      "original": "y",
+      "translation": "there",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 119,
+      "language_id": 1,
+      "original": "écrire",
+      "translation": "to write",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 2,
+      "language_id": 1,
+      "original": "de",
+      "translation": "of",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 5,
+      "language_id": 1,
+      "original": "être",
+      "translation": "to be",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 90,
+      "language_id": 1,
+      "original": "près",
+      "translation": "close",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 77,
+      "language_id": 1,
+      "original": "mauvais",
+      "translation": "bad",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 70,
+      "language_id": 1,
+      "original": "dur",
+      "translation": "hard",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 10,
+      "language_id": 1,
+      "original": "pour",
+      "translation": "for",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 69,
+      "language_id": 1,
+      "original": "simple",
+      "translation": "simple",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 93,
+      "language_id": 1,
+      "original": "loin",
+      "translation": "far",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 102,
+      "language_id": 1,
+      "original": "aller",
+      "translation": "to go",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 105,
+      "language_id": 1,
+      "original": "lire",
+      "translation": "to read",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    },
+    {
+      "id": 92,
+      "language_id": 1,
+      "original": "ici",
+      "translation": "here",
+      "memory_value": 1,
+      "correct_count": 0,
+      "incorrect_count": 0
+    }
+  ]
+}

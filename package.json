@@ -1,0 +1,48 @@
+{
+  "name": "lango",
+  "version": "1.0.0",
+  "description": "Lango - French spaced repetition desktop app",
+  "main": "electron/main.js",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd spaced-repetition && npm install && cd ../spaced-repetition-api && npm install",
+    "dev": "concurrently --kill-others \"cd spaced-repetition && npm start\" \"cd spaced-repetition-api && npm run dev\" \"wait-on http://localhost:5173 http://localhost:3001 && electron .\"",
+    "build:frontend": "cd spaced-repetition && npm run build",
+    "dist": "npm run build:frontend && electron-builder"
+  },
+  "dependencies": {
+    "electron": "^35.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "electron-builder": "^26.0.12",
+    "wait-on": "^8.0.3"
+  },
+  "build": {
+    "appId": "com.lango.app",
+    "productName": "Lango",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**/*",
+      "spaced-repetition-api/src/**/*",
+      "spaced-repetition-api/node_modules/**/*",
+      "spaced-repetition-api/package.json",
+      "spaced-repetition/dist/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "spaced-repetition-api/data/data.json",
+        "to": "seed-data.json"
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

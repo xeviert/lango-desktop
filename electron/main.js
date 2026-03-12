@@ -18,33 +18,6 @@ if (isDev) {
   }
 }
 
-// Override backend config before loading the app
-const apiBasePath = isDev
-  ? path.join(__dirname, '..', 'spaced-repetition-api', 'src')
-  : path.join(__dirname, '..', 'spaced-repetition-api', 'src');
-
-const config = require(path.join(apiBasePath, 'config.js'));
-config.DATA_FILE = dataFilePath;
-
-// Load Express app and language service
-const expressApp = require(path.join(apiBasePath, 'app.js'));
-const LanguageService = require(path.join(apiBasePath, 'language', 'language-service.js'));
-
-// In production, serve the built frontend
-if (!isDev) {
-  const express = require(path.join(
-    __dirname, '..', 'spaced-repetition-api', 'node_modules', 'express'
-  ));
-  const frontendPath = path.join(__dirname, '..', 'spaced-repetition', 'dist');
-  expressApp.use(express.static(frontendPath));
-
-  // SPA fallback: serve index.html for non-API routes
-  expressApp.get('*', (req, res, next) => {
-    if (req.path.startsWith('/api/')) return next();
-    res.sendFile(path.join(frontendPath, 'index.html'));
-  });
-}
-
 let mainWindow;
 
 function createWindow() {
@@ -69,16 +42,43 @@ function createWindow() {
 }
 
 app.whenReady().then(() => {
-  // Shuffle words on startup
-  LanguageService.shuffleWords();
+  if (isDev) {
+    // In dev mode, the API runs as a separate tsx process via concurrently.
+    // Just create the window — no need to require backend modules.
+    createWindow();
+  } else {
+    // In production, load the compiled backend
+    const apiBasePath = path.join(__dirname, '..', 'spaced-repetition-api', 'dist', 'spaced-repetition-api', 'src');
 
-  // Start Express server
-  const PORT = 3001;
-  expressApp.listen(PORT, '127.0.0.1', () => {
-    console.log(`API server running on http://127.0.0.1:${PORT}`);
-  });
+    const config = require(path.join(apiBasePath, 'config.js'));
+    config.DATA_FILE = dataFilePath;
 
-  createWindow();
+    const expressApp = require(path.join(apiBasePath, 'app.js')).default;
+    const LanguageService = require(path.join(apiBasePath, 'language', 'language-service.js')).default;
+
+    const express = require(path.join(
+      __dirname, '..', 'spaced-repetition-api', 'node_modules', 'express'
+    ));
+    const frontendPath = path.join(__dirname, '..', 'spaced-repetition', 'dist');
+    expressApp.use(express.static(frontendPath));
+
+    // SPA fallback: serve index.html for non-API routes
+    expressApp.get('*', (req, res, next) => {
+      if (req.path.startsWith('/api/')) return next();
+      res.sendFile(path.join(frontendPath, 'index.html'));
+    });
+
+    // Shuffle words on startup
+    LanguageService.shuffleWords();
+
+    // Start Express server
+    const PORT = 3001;
+    expressApp.listen(PORT, '127.0.0.1', () => {
+      console.log(`API server running on http://127.0.0.1:${PORT}`);
+    });
+
+    createWindow();
+  }
 
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) {

@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition-api\" && npx tsc --noEmit 2>&1)",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npx tsc --noEmit 2>&1)",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition-api\" && npx tsc 2>&1)",
+      "Bash(cd \"/c/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npm install tailwind-merge clsx lucide-react framer-motion class-variance-authority @radix-ui/react-dialog @radix-ui/react-label @radix-ui/react-slot @radix-ui/react-tooltip 2>&1 | tail -5)",
+      "Bash(cd \"/c/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npx vite build 2>&1 | tail -30)",
+      "Bash(cd \"/c/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && timeout 10 npx vite 2>&1 || true)",
+      "Bash(cd \"/c/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npx vite build 2>&1)",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npm ls react 2>&1 | grep -c \"react@\")",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npm ls react 2>&1 | grep \"UNMET\\\\|invalid\\\\|ERR\\\\|duplicate\")",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npm ls react 2>&1 | grep \"react@\" | sort -u)",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && node -e \"const r1 = require.resolve\\('react', {paths:['.']}\\); const r2 = require.resolve\\('react', {paths:['node_modules/@radix-ui/react-tooltip']}\\); console.log\\('App react:', r1\\); console.log\\('Radix react:', r2\\); console.log\\('Same?', r1===r2\\)\")",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && node -e \"console.log\\(require\\('react/package.json'\\).version\\); console.log\\(require\\('react-dom/package.json'\\).version\\)\")",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npm ls react-dom 2>&1 | grep \"react-dom@\" | sort -u)",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && rm -rf node_modules/.vite)"
+    ]
+  }
+}

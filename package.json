@@ -8,7 +8,7 @@
     "postinstall": "cd spaced-repetition && npm install && cd ../spaced-repetition-api && npm install",
     "dev": "concurrently --kill-others \"cd spaced-repetition && npm start\" \"cd spaced-repetition-api && npm run dev\" \"wait-on http://localhost:5173 http://localhost:3001 && electron .\"",
     "build:frontend": "cd spaced-repetition && npm run build",
-    "dist": "npm run build:frontend && electron-builder"
+    "dist": "cd spaced-repetition-api && npm run build && cd .. && npm run build:frontend && electron-builder"
   },
   "dependencies": {
     "electron": "^35.0.1"
@@ -16,6 +16,7 @@
   "devDependencies": {
     "concurrently": "^9.1.2",
     "electron-builder": "^26.0.12",
+    "typescript": "^5.8.0",
     "wait-on": "^8.0.3"
   },
   "build": {
@@ -26,7 +27,7 @@
     },
     "files": [
       "electron/**/*",
-      "spaced-repetition-api/src/**/*",
+      "spaced-repetition-api/dist/**/*",
       "spaced-repetition-api/node_modules/**/*",
       "spaced-repetition-api/package.json",
       "spaced-repetition/dist/**/*"

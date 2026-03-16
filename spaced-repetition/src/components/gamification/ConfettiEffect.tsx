@@ -46,7 +46,7 @@ export function ConfettiEffect({ trigger }: { trigger: boolean }) {
             rotate: p.rotation,
             scale: [1, 0.5],
           }}
-          transition={{ duration: 1.2, delay: p.delay, ease: 'easeOut' }}
+          transition={{ duration: 1.2, delay: p.delay, ease: 'easeOut' as const }}
           className="absolute left-1/2 top-1/2 w-2 h-2 rounded-full"
           style={{ backgroundColor: p.color }}
         />

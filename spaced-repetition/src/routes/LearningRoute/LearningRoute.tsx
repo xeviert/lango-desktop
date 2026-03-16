@@ -1,4 +1,4 @@
-import { useReducer, useEffect, useCallback } from 'react';
+import { useReducer, useEffect, useCallback, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, RotateCcw } from 'lucide-react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
@@ -122,6 +122,19 @@ function reducer(state: LearningState, action: LearningAction): LearningState {
 
 export default function LearningRoute() {
   const [state, dispatch] = useReducer(reducer, initialState);
+  const [audioEnabled, setAudioEnabled] = useState(() => {
+    const stored = localStorage.getItem('lango-audio-enabled');
+    return stored === null ? true : stored === 'true';
+  });
+
+  const handleToggleAudio = useCallback(() => {
+    setAudioEnabled((prev) => {
+      const next = !prev;
+      localStorage.setItem('lango-audio-enabled', String(next));
+      if (!next) speechSynthesis.cancel();
+      return next;
+    });
+  }, []);
 
   useEffect(() => {
     Promise.all([
@@ -231,6 +244,8 @@ export default function LearningRoute() {
           <WordPoolView
             words={words}
             score={score}
+            audioEnabled={audioEnabled}
+            onToggleAudio={handleToggleAudio}
             onStartPractice={() => dispatch({ type: 'SET_VIEW', view: 'guessing' })}
           />
         )}
@@ -242,6 +257,8 @@ export default function LearningRoute() {
             correctCount={correctCount}
             incorrectCount={incorrectCount}
             streak={streak}
+            audioEnabled={audioEnabled}
+            onToggleAudio={handleToggleAudio}
             onGuess={handleGuess}
           />
         )}

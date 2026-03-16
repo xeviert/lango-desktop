@@ -7,6 +7,8 @@ import { Button } from '@/components/ui/button';
 import { ScoreBadge } from '@/components/gamification/ScoreBadge';
 import { StatsPills } from '@/components/gamification/StatsPills';
 import { StreakCounter } from '@/components/gamification/StreakCounter';
+import { AudioToggle } from '@/components/gamification/AudioToggle';
+import { useFrenchTTS } from '@/hooks/useFrenchTTS';
 
 interface GuessingViewProps {
   nextWord: string;
@@ -14,6 +16,8 @@ interface GuessingViewProps {
   correctCount: number;
   incorrectCount: number;
   streak: number;
+  audioEnabled: boolean;
+  onToggleAudio: () => void;
   onGuess: (guess: string) => void;
 }
 
@@ -23,12 +27,16 @@ export function GuessingView({
   correctCount,
   incorrectCount,
   streak,
+  audioEnabled,
+  onToggleAudio,
   onGuess,
 }: GuessingViewProps) {
   const inputRef = useRef<HTMLInputElement>(null);
+  const { speak } = useFrenchTTS();
 
   useEffect(() => {
     inputRef.current?.focus();
+    if (audioEnabled && nextWord) speak(nextWord);
   }, [nextWord]);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -46,6 +54,7 @@ export function GuessingView({
         <div className="flex items-center justify-center gap-3 mb-5">
           <ScoreBadge score={score} />
           <StreakCounter streak={streak} />
+          <AudioToggle enabled={audioEnabled} onToggle={onToggleAudio} />
         </div>
 
         <Card className="border-b-4 border-b-blue-500 animate-float">

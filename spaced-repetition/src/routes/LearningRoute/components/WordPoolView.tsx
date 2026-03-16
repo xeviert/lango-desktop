@@ -4,11 +4,14 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ScoreBadge } from '@/components/gamification/ScoreBadge';
 import { ProgressRing } from '@/components/gamification/ProgressRing';
+import { AudioToggle } from '@/components/gamification/AudioToggle';
 import type { Word } from '../../../../../shared/types';
 
 interface WordPoolViewProps {
   words: Word[];
   score: number;
+  audioEnabled: boolean;
+  onToggleAudio: () => void;
   onStartPractice: () => void;
 }
 
@@ -18,7 +21,7 @@ function getWordVariant(word: Word): 'success' | 'danger' | 'neutral' {
   return 'neutral';
 }
 
-export function WordPoolView({ words, score, onStartPractice }: WordPoolViewProps) {
+export function WordPoolView({ words, score, audioEnabled, onToggleAudio, onStartPractice }: WordPoolViewProps) {
   const masteredCount = words.filter((w) => w.correct_count >= 3).length;
 
   return (
@@ -28,6 +31,7 @@ export function WordPoolView({ words, score, onStartPractice }: WordPoolViewProp
           <div className="flex items-center justify-center gap-4 mb-4">
             <ScoreBadge score={score} />
             <ProgressRing value={masteredCount} max={words.length} />
+            <AudioToggle enabled={audioEnabled} onToggle={onToggleAudio} />
           </div>
           <h2 className="text-xl font-extrabold text-[#1a202c] mt-3 mb-1">Your Word Bank</h2>
           <p className="text-sm text-[#718096]">{words.length} French words to master</p>

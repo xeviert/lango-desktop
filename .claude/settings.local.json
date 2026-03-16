@@ -14,7 +14,8 @@
       "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && node -e \"const r1 = require.resolve\\('react', {paths:['.']}\\); const r2 = require.resolve\\('react', {paths:['node_modules/@radix-ui/react-tooltip']}\\); console.log\\('App react:', r1\\); console.log\\('Radix react:', r2\\); console.log\\('Same?', r1===r2\\)\")",
       "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && node -e \"console.log\\(require\\('react/package.json'\\).version\\); console.log\\(require\\('react-dom/package.json'\\).version\\)\")",
       "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npm ls react-dom 2>&1 | grep \"react-dom@\" | sort -u)",
-      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && rm -rf node_modules/.vite)"
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && rm -rf node_modules/.vite)",
+      "Bash(cd \"C:/Users/Admin/Documents/Code Projects/lango/spaced-repetition\" && npx tsc --noEmit 2>&1 | head -30)"
     ]
   }
 }

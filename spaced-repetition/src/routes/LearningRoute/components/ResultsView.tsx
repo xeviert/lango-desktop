@@ -107,7 +107,7 @@ export function ResultsView({
               <motion.span
                 initial={{ y: 0, opacity: 1 }}
                 animate={{ y: -20, opacity: 0 }}
-                transition={{ duration: 1.5, ease: 'easeOut' }}
+                transition={{ duration: 1.5, ease: 'easeOut' as const }}
                 className={cn(
                   'text-sm font-bold',
                   scoreDelta > 0 ? 'text-green-correct' : 'text-red-incorrect'

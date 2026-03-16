@@ -28,7 +28,7 @@ const cardVariants = {
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: 0.15 * i, duration: 0.4, ease: 'easeOut' },
+    transition: { delay: 0.15 * i, duration: 0.4, ease: 'easeOut' as const },
   }),
 };
 
@@ -54,7 +54,7 @@ export default function DashboardRoute() {
         <motion.h1
           className="text-[3rem] font-extrabold bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent mb-2"
           animate={{ y: [0, -4, 0] }}
-          transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+          transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' as const }}
         >
           Lango
         </motion.h1>
